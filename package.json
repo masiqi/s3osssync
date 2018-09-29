@@ -1,0 +1,25 @@
+{
+  "name": "s3osssync",
+  "version": "1.0.0",
+  "description": "利用lambda自动同步s3上的文件到阿里云oss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masiqi/s3osssync.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masiqi/s3osssync/issues"
+  },
+  "homepage": "https://github.com/masiqi/s3osssync#readme",
+  "dependencies": {
+    "ali-oss": "^6.0.1",
+    "async": "^2.6.1",
+    "aws-sdk": "^2.325.0"
+  }
+}
